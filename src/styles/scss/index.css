@@ -1,0 +1,64 @@
+.primary-bg {
+  background-color: #f0714d;
+}
+
+.secondary-bg {
+  background-color: #f28d71;
+}
+
+.btn-what {
+  background-color: white;
+  color: #f0714d;
+  font-size: 24px;
+}
+
+.btn-what-base {
+  top: 50%;
+}
+
+.do {
+  top: -120px;
+}
+
+.animationFade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: fadeIn 800ms;
+          animation: fadeIn 800ms;
+}
+
+.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 990px) {
+  .btn-what-base {
+    top: 85%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=index.css.map */

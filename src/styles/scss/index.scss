@@ -1,0 +1,79 @@
+.primary-bg {
+  background-color: #f0714d;
+}
+.secondary-bg {
+  background-color: #f28d71;
+}
+.btn-what {
+  background-color: white;
+  color: #f0714d;
+  font-size: 24px;
+}
+.btn-what-base {
+  top: 50%;
+}
+.do {
+  top: -120px;
+}
+.animationFade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 800ms;
+}
+.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 990px) {
+  .btn-what-base {
+    top: 85%;
+  }
+}
+
+//transistion
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
